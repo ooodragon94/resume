@@ -8,12 +8,12 @@ sidebar:
 
     # Profile information
     name: TaeIL Oh
-    tagline: ML Engineer@Knowre
+    tagline: Vision Researcher
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: ooodragon94@gmail.com
-    phone: '+82 10 4539 4062'
+    phone: '+82 10 2394 6882'
     website: ooodragon94.github.io/resume
     linkedin: taeil-oh
     github: ooodragon94
@@ -44,20 +44,15 @@ education:
       time: 2020.03 - 2022.02
       details: |
         광주과학기술원 컴퓨터 비전 연구실(최종현 교수님)에서 석사 학위를 받았습니다. \
-        Video & Language, Action recognition, Image security 등의 분야를 경험하였습니다.\
         연구실에서 다음과 같은 분야를 경험하였습니다:
-          - Vision & Language: Video Captioning, Natural Language Video Localization
-          - Video Understanding: Action Recognition, Self-supervised Video Representation Learning
-          - Image Security: Steganography, Image Obfuscation
-          - Image Generation(GAN): Image Obfuscation
-    - degree: BS in Computer Science
+          - Model Compreesion: Knowledge Distillation, Network Pruning, Binary Network, Network Architecture Search
+          - Image Generation: Downstream task information disentanglement for privacy, Zero shot Image Generation for privacy.
+
+    - degree: BS in Electric Electronics Engineering
       university: GIST (GPA 3.94 / 4.50)
-      time: 2015.03 -2019.02
+      time: 2014.03 -2020.02
       details: |
-          광주과학기술원대학 전기전자컴퓨터공학부에서 컴퓨터과학을 전공하였습니다.
-          - 우등졸업
-          - 국가이공계장학금 수여
-          - ACM-ICPC Asia Seoul Regional 진출 (지역 본선)
+        중앙대학교 전자전기공학부에서 
           
 experiences:
   - title: Machine Learning Engineer
