@@ -52,25 +52,28 @@ education:
       university: GIST (GPA 3.94 / 4.50)
       time: 2014.03 -2020.02
       details: |
-        중앙대학교 전자전기공학부에서 
+        중앙대학교 전자전기공학부에서 학사학위를 받았습니다. \
+        교내 IOS 수업에서 final project에서 3등을 수상하였습니다. \
+        교내 Always On 경연대회에서 장려상을 수상하였습니다. \
+        블루투스 비컨을 사용하여 사용자의 위치를 LSTM으로 측정하는 프로젝트를 진행하여 Xcorps에서 차세대리더상을 수상을 하였습니다. 
           
-experiences:
-  - title: Machine Learning Engineer
-    time: 2021.8 - now
-    company: Knowre Inc.
-    topic: 병역특례
-    details: |
-      현재 <a href="https://www.knowre.com/" target="parent">Knowre Inc.</a>에서 병역특례로 근무하고 있습니다. 2023년 8월 복무만료 예정입니다.\
-      Knowre Inc.에서는 수학/영어 과목에서 학생별로 개인화된 교육 서비스를 제공하고 있습니다. 
-      대표적으로 <a href="https://summit.daekyo.com/V2/index.aspx" target="parent">대교 써밋 수학</a>을 개발하고 서비스하고 있으며, 300여개에 달하는 미 공교육 기관에 수학 커리큘럼을 공급하고 있습니다.\
-      저는 이러한 서비스의 핵심이 되는 학생 능력 추정 및 문제 추천 시스템 개발 부문에서 리드 연구원으로서 차세대 시스템 연구개발를 담당하고 있습니다.
-  - title: Machine Learning Intern
-    time: 2019.07 - 2019.09
-    company: Deeping Source Inc.
-    topic: 학기 중 인턴
-    details: |
-      머신러닝에 쓰이는 이미지 데이터셋의 프라이버시 문제를 해결하기 위한 이미지 비식별화(Image Obfuscation)기법의 연구개발에 참여하였습니다.
-      여기서, 저는 비식별화에 사용된 인공신경망 구조를 구현하였고, 개발 완료된 비식별화 알고리즘이 다양한 크기의 이미지에 대응할 수 있도록 하는 방법을 개발하였습니다.
+#experiences:
+#  - title: Machine Learning Engineer
+#    time: 2021.8 - now
+#    company: Knowre Inc.
+#    topic: 병역특례
+#    details: |
+#      현재 <a href="https://www.knowre.com/" target="parent">Knowre Inc.</a>에서 병역특례로 근무하고 있습니다. 2023년 8월 복무만료 예정입니다.\
+#      Knowre Inc.에서는 수학/영어 과목에서 학생별로 개인화된 교육 서비스를 제공하고 있습니다.
+#      대표적으로 <a href="https://summit.daekyo.com/V2/index.aspx" target="parent">대교 써밋 수학</a>을 개발하고 서비스하고 있으며, 300여개에 달하는 미 공교육 기관에 수학 커리큘럼을 공급하고 있습니다.\
+#      저는 이러한 서비스의 핵심이 되는 학생 능력 추정 및 문제 추천 시스템 개발 부문에서 리드 연구원으로서 차세대 시스템 연구개발를 담당하고 있습니다.
+#  - title: Machine Learning Intern
+#    time: 2019.07 - 2019.09
+#    company: Deeping Source Inc.
+#    topic: 학기 중 인턴
+#    details: |
+#      머신러닝에 쓰이는 이미지 데이터셋의 프라이버시 문제를 해결하기 위한 이미지 비식별화(Image Obfuscation)기법의 연구개발에 참여하였습니다.
+#      여기서, 저는 비식별화에 사용된 인공신경망 구조를 구현하였고, 개발 완료된 비식별화 알고리즘이 다양한 크기의 이미지에 대응할 수 있도록 하는 방법을 개발하였습니다.
 
 projects:
     - title: <a href="https://skaws2003.github.io/2021/01/10/uNLVL/" target="parent">Zero-Shot Natural Language Video Localization (link)</a>
