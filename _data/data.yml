@@ -76,16 +76,43 @@ education:
 #      여기서, 저는 비식별화에 사용된 인공신경망 구조를 구현하였고, 개발 완료된 비식별화 알고리즘이 다양한 크기의 이미지에 대응할 수 있도록 하는 방법을 개발하였습니다.
 
 projects:
-    - title: <a href="https://skaws2003.github.io/2021/01/10/uNLVL/" target="parent">Zero-Shot Natural Language Video Localization (link)</a>
-      time: 2020.7 - 2021.10
-      company: GIST Computer Vision Lab, NCSOFT
-      topic: Vision and Language
+    - title:
+      time: 2020.03 - 2022.02
+      company: KETI (한국전자기술원)
+      topic: Model Compression
       details: |
-        Natural Language Video Localization(NLVL)은 비디오와 문장이 주어졌을 때 비디오에서 문장이 가리키는 부분을 찾아내는 문제입니다. 
-        이 문제를 별다른 annotation cost 없이 해결하는 Zero-Shot NLVL문제를 제시하고 이를 해결하는 알고리즘을 제시하였습니다.
-        해당 논문의 제 1저자로 연구를 진행하였고, 아이디어부터 대부분의 실험 설계와 논문 구성까지 도맡아 했습니다. 
-        지도교수님과 다른 분들의 도움을 통해 성공적으로 논문의 형태로 만들 수 있었습니다.
-        * NCSOFT의 지원을 받아 특허를 출원하였습니다 (출원번호 10-2021-0076124)
+        딥러닝 모델을 경량화시켜서 반도체 칩에서 구동가능할 만큼 소형화를 시키는 프로젝트입니다. 
+        저는 경량화 기법에 contribution이 있으며, 그 중에서도 Knowledge Distillation 기법과 Pruning 기법으로 CNN 모델을 경량화하는 알고리즘을 구현하였습니다.
+        또한 디바이스 특화 네트워크 구현에 있어서, tensorrt를 사용하여 네트워크의 inference speed를 최대한으로 optimize하여 jetson nano에서 돌려본 경험이 있습니다.
+    - title:
+        time: 2021.02 - 2021.06
+        company: GIST (광주과학기술)
+        topic: Network Pruning
+        details: |
+          Network pruning에서도 filter pruning에 연구를 진행하였습니다.
+          - Data가 주어지지 않은 상태에서 학습된 network의 parameter들만 보고 importance score를 계산하여 pruning하는 zero shot pruning에 대한 연구를 진행하였습니다.
+          - 또한 filter pruning index에 대해서 연구를 진행하였습니다. Filter pruning을 할 때, index를 맞추어주는 것은 매우 중요합니다. 
+          하지만 residual network들이 성능적 우위를 차지하며 우세 네트워크가 되어가는 동안, pruning index를 맞추어주는 연구는 진행이 되지 않아 연구를 진행했습니다.
+    - title:
+        time: 2021.03 - 2021.04
+        company: GIST (광주과학기술)
+        topic: Knowledge Distillation
+        details: |
+          흔히 dark knowledge distillation이라고 하는 logit distillation에 연구를 진행하였습니다.
+          Distillation은 대부분 좋은 성능을 내는 큰 네트워크를 teacher network로 두고, student를 학습시키는 방식으로 진행합니다.
+          하지만 큰 네트워크에 대한 inference는 주어진 resource가 적다면 쉽지 않습니다. 이를 우회하기 위해서, 대부분 teacher model의 inference 결과를 저장해둡니다.
+          이렇게 되면 주어진 이미지에 어떠한 transformation이 가해져도 student가 학습할 teacher network의 logit은 deterministic합니다.
+          이를 위해서 transformation이 주어지면 logit의 변화량을 mimic할 수 있는 네트워크를 학습하여 우회를 시도하는 연구를 진행했습니다.
+    - title:
+        time: 2021.07 - current
+        company: GIST (광주과학기술)
+        topic: Binary Network
+        details: |
+          경량화 네트워크의 가장 extreme case는 모든 parameter를 binarize하는 것 입니다.
+          - Binary Network에서 성능을 올려주는 pruning 기법에 대해 연구를 하였습니다. Quantization error가 높은 filter를 제거함으로서 높은 성능을 내는 binary network를 만드는 연구를 진행했습니다.
+          - Binary Network에서의 architecture search를 진행하였습니다. DARTS 기반의 NAS방식을 사용하여, 높은 성능을 내는 binary network를 찾는 연구를 진행했습니다.
+          - Binary Network에 대한 application (현재 진행중, 상세정보 공개불가 ECCV2022 제출 예정)
+
 
 #interests:
 #    - title: Vision and Language
