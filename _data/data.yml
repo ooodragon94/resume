@@ -81,7 +81,7 @@ projects:
         - 저는 경량화 기법에 contribution이 있으며, 그 중에서도 Knowledge Distillation 기법과 Pruning 기법으로 CNN 모델을 경량화하는 알고리즘을 구현하였습니다.
         - 또한 디바이스 특화 네트워크 구현에 있어서, tensorrt를 사용하여 네트워크의 inference speed를 최대한으로 optimize하여 jetson nano에서 돌려본 경험이 있습니다.
 
-    - title: Downstream task related image generation for privacy with information disentanglement
+    - title: Image generation for privacy with information disentanglement
       time: 2020.07 - 2020.09
       company: GIST (광주과학기술)
       topic: Privacy
@@ -167,10 +167,10 @@ publications:
   title: Publications
   intro: 위에 언급된 프로젝트를 바탕으로 논문 출판하였습니다.
   papers:
-    - title: 시각 인식을 위한 네트워크 경량화 기법
+    - title: <a href="http://conference.kimst.or.kr/data/programbook-1111-1.pdf" target="parent">시각 인식을 위한 네트워크 경량화 기법</a>
       authors: 오태일, 최종현
       conference: KIMST (한국군사과학기술학회), 2020
-    - title: 단일 영상 기반 텍스쳐 보존 잡음제거
+    - title: <a href="https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE10583063" target="parent">단일 영상 기반 텍스쳐 보존 잡음제거</a>
       authors: 조연식, 오태일, 최종현
       conference: KSC (한국정보과학회), 2021
 
