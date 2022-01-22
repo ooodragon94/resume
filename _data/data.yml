@@ -28,7 +28,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I have a masters degree. I studied master's program at <a href="https://https://gistvision.github.io//" target="parent">GIST Computer Vision Lab</a>. <a href="http://ppolon.github.io/" target="parent">Jonghyun Choi</a>is my advisor.
+      I studied master's program at <a href="https://https://gistvision.github.io//" target="parent">GIST Computer Vision Lab</a>. <a href="http://ppolon.github.io/" target="parent">Jonghyun Choi</a> is my advisor.
 
 education:
     - degree: High School Diploma
@@ -47,7 +47,7 @@ education:
         - Won Next leadership Awards from Xcorps by using bluetooth beacon and LSTM to estimate the user's position.
 
     - degree: MS in Computer Science
-      university: Gwangju Institute of Science and Technology(GIST), Gwangju (GPA 4.0/4.50)
+      university: <a href="https://www.gist.ac.kr/en/main.html" target="parent">Gwangju Institute of Science and Technology(GIST), Gwangju (GPA 4.0/4.50)</a>
       time: 2020.03 - 2022.02
       details: |
         Received master's degree from the Computer Vision Lab (prof. Jonghyun Choi), Gwangju Institute of Science and Technology.
@@ -78,41 +78,41 @@ experiences:
 projects:
     - title: Model Compression
       time: 2020.03 - 2022.02
-      company: Korea Electronics Technology Institute(KETI)
+      company: <a href="https://www.keti.re.kr/eng/main/main.php" target="parent">Korea Electronics Technology Institute(KETI)</a>
       topic: Image Recognition
       details: |
-        딥러닝 모델을 경량화시켜서 반도체 칩에서 구동가능할 만큼 소형화를 시키는 프로젝트입니다.
-        - 저는 경량화 기법에 contribution이 있으며, 그 중에서도 Knowledge Distillation 기법과 Pruning 기법으로 CNN 모델을 경량화하는 알고리즘을 구현하였습니다.
-        - 또한 디바이스 특화 네트워크 구현에 있어서, tensorrt를 사용하여 네트워크의 inference speed를 최대한으로 optimize하여 jetson nano에서 돌려본 경험이 있습니다.
+        Project on compression deep neural network to implement on a chip.
+        - Contributed on Model compression algorithm; Knowledge Distillation, Pruning to compress Convolutional Neural Network(CNN).
+        - Used tensorrt to optimize network inference speed on Jetson Nano.
 
     - title: Image generation for privacy with information disentanglement
       time: 2020.07 - 2020.09
-      company: GIST (광주과학기술)
+      company: GIST
       topic: Privacy
       details: |
-        Privacy 걱정이 없는 image generation 연구를 진행했습니다.
-        - 딥러닝방식은 어떻게 해서든 학습할 데이터를 필요로 합니다.
-        - 이는 privacy관점에서 굉장히 위험하고 언젠가는 필수적으로 해결되어야할 문제입니다.
-        - 이를 위해, 주어진 dataset에서 targeting하는 downstream task에 대한 information만 남긴채로 새로운 image를 generation하는 방식에 대해 연구하였습니다.
+        Research on generating images with no privacy concern.
+        - Deep learning needs data to learn.
+        - This has critial privacy concern and must be solved.
+        - For this, we researched on generating images only with downstream task related information.
 
     - title: Zero shot face image generation
       time: 2020.10 - 2020.11
-      company: GIST (광주과학기술)
+      company: GIST
       topic: Privacy
       details: |
-        Dream to Distill 이라는 방식을 사용하여, zero shot face image generation에 대해 연구를 진행하였습니다. 
+        Used <a href="https://arxiv.org/pdf/1912.08795.pdf" target="parent">Dream to Distill</a> for zero shot face image generation.
 
     - title: Noise removal with only noisy images
-      time: 2020.10 - 2020.11
-      company: GIST (광주과학기술)
+      time: 2020.12 - 2021.01
+      company: GIST
       topic: Noise removal
       details: |
-        Training image만 주어졌을 때, real error를 SURE(Stein's unbiased risk estimate)로 추정할 수 있습니다.\
-        SURE를 사용하여, 단일 영상으로도 영상을 제거할 수 있는 기법에 대해 연구했습니다.
+        Given only training image, we can estimate real error with Stein's unbiased risk estimate(SURE).\
+        Using SURE, we researched on denoising method only with noisy images.
 
     - title: Network Pruning
       time: 2021.02 - 2021.06
-      company: GIST (광주과학기술)
+      company: GIST
       topic: Image Recognition
       details: |
         Network pruning 중 structured pruning의 일종인 filter pruning에 대해 연구를 진행하였습니다.
@@ -122,7 +122,7 @@ projects:
 
     - title: Knowledge Distillation
       time: 2021.03 - 2021.04
-      company: GIST (광주과학기술)
+      company: GIST
       topic: Image Recognition
       details: |
         흔히 dark knowledge distillation이라고 하는 logit distillation에 대해 연구를 진행하였습니다.
@@ -133,7 +133,7 @@ projects:
 
     - title: Binary Network
       time: 2021.07 - current
-      company: GIST (광주과학기술)
+      company: GIST
       topic: Image Recognition
       details: |
         Quantization의 extreme case인 Binary Network에 대해 연구를 진행하였습니다.
@@ -147,29 +147,29 @@ skills:
       - name: Python
         level: 80%
         details: |
-          - 아이디어들을 구현하는데에 어려움이 없습니다.
-          - 석사기간동안 해당 언어로 연구하였습니다.
+          - No problem on implementing ideas.
+          - Used this language while studying for master's degree.
       - name: PyTorch
         level: 80%
         details: |
-          - 아이디어들을 구현하는데에 어려움이 없습니다.
-          - 읽은 논문들의 아이디어들을 제 아이디어와 비교하기 위해서 수정하여 돌려본 경험이 있습니다.
-          - Ray를 사용하여 extensive한 hyperparameter searching을 해본 경험이 있습니다.
-          - 상속을 하여 custom class를 만드는데에 문제가 없습니다.
-          - 석사기간동안 해당 라이블러리로 연구하였습니다.
+          - No problem on implementing ideas.
+          - Modified other author's code to compare the method on our method.
+          - Experienced extensive hyperparameter searching with <a href="https://docs.ray.io/en/latest/using-ray-with-pytorch.html" target="parent">Ray</a>
+          - No problem on making custom class while inheriting its class.
+          - Used this library while studying for master's degree.
       - name: C
         level: 30%
         details: |
-          - 학사과정때 한 학기 배웠습니다.
-          - 해당언어로 Arduino를 코딩하여 다양한 프로젝트를 진행해봤습니다.
+          - Studied for 1 year at Bachelor.
+          - Done various projects by coding Arduino in this language.
       - name: Java
         level: 30%
         details: |
-          - 학사과정때 한 학기 배웠습니다.
+          - Studied for half year at Bachelor.
 
 publications:
   title: Publications
-  intro: 위에 언급된 프로젝트를 바탕으로 논문 출판하였습니다.
+  intro: Published papers regarding to done projects.
   papers:
     - title: <a href="http://conference.kimst.or.kr/data/programbook-1111-1.pdf" target="parent">시각 인식을 위한 네트워크 경량화 기법</a>
       authors: 오태일, 최종현
