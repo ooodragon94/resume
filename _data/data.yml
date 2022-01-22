@@ -28,7 +28,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I studied master's program at <a href="https://https://gistvision.github.io//" target="parent">GIST Computer Vision Lab</a>. <a href="http://ppolon.github.io/" target="parent">Jonghyun Choi</a> is my advisor.
+      I studied master's program at <a href="https://https://gistvision.github.io//">GIST Computer Vision Lab</a>. <a href="http://ppolon.github.io/">Jonghyun Choi</a> is my advisor.
 
 education:
     - degree: High School Diploma
@@ -47,7 +47,7 @@ education:
         - Won Next leadership Awards from Xcorps by using bluetooth beacon and LSTM to estimate the user's position.
 
     - degree: MS in Computer Science
-      university: <a href="https://www.gist.ac.kr/en/main.html" target="parent">Gwangju Institute of Science and Technology(GIST), Gwangju (GPA 4.0/4.50)</a>
+      university: <a href="https://www.gist.ac.kr/en/main.html">Gwangju Institute of Science and Technology(GIST), Gwangju (GPA 4.0/4.50)</a>
       time: 2020.03 - 2022.02
       details: |
         Received master's degree from the Computer Vision Lab (prof. Jonghyun Choi), Gwangju Institute of Science and Technology.
@@ -58,14 +58,14 @@ education:
 experiences:
   - title: Machine Learning Intern
     time: 2018.11 - 2019.02
-    company: <a href="https://neweng.cau.ac.kr/index.do" target="parent">ChungAng University, Seoul</a>
+    company: <a href="https://neweng.cau.ac.kr/index.do">ChungAng University, Seoul</a>
     topic: Internship while winter break
     details: |
       Learned basic ML knowledge.
 
   - title: Machine Learning Intern
     time: 2019.7 - 2019.8
-    company: <a href="https://www.unist.ac.kr/" target="parent">Ulsan National Institute of Science and Technology(UNIST)</a>
+    company: <a href="https://www.unist.ac.kr/">Ulsan National Institute of Science and Technology(UNIST)</a>
     topic: Internship while summer break
     details: |
       Learned and implemented following:
@@ -78,7 +78,7 @@ experiences:
 projects:
     - title: Model Compression
       time: 2020.03 - 2022.02
-      company: <a href="https://www.keti.re.kr/eng/main/main.php" target="parent">Korea Electronics Technology Institute(KETI)</a>
+      company: <a href="https://www.keti.re.kr/eng/main/main.php">Korea Electronics Technology Institute(KETI)</a>
       topic: Image Recognition
       details: |
         Project on compression deep neural network to implement on a chip.
@@ -100,7 +100,7 @@ projects:
       company: GIST
       topic: Privacy
       details: |
-        Used <a href="https://arxiv.org/pdf/1912.08795.pdf" target="parent">Dream to Distill</a> for zero shot face image generation.
+        Used <a href="https://arxiv.org/pdf/1912.08795.pdf">Dream to Distill</a> for zero shot face image generation.
 
     - title: Noise removal with only noisy images
       time: 2020.12 - 2021.01
@@ -154,7 +154,7 @@ skills:
         details: |
           - No problem on implementing ideas.
           - Modified other author's code to compare the method on our method.
-          - Experienced extensive hyperparameter searching with <a href="https://docs.ray.io/en/latest/using-ray-with-pytorch.html" target="parent">Ray</a>
+          - Experienced extensive hyperparameter searching with <a href="https://docs.ray.io/en/latest/using-ray-with-pytorch.html">Ray</a>
           - No problem on making custom class while inheriting its class.
           - Used this library while studying for master's degree.
       - name: C
@@ -171,10 +171,10 @@ publications:
   title: Publications
   intro: Published papers regarding to done projects.
   papers:
-    - title: <a href="http://conference.kimst.or.kr/data/programbook-1111-1.pdf" target="parent">시각 인식을 위한 네트워크 경량화 기법</a>
+    - title: <a href="http://conference.kimst.or.kr/data/programbook-1111-1.pdf">시각 인식을 위한 네트워크 경량화 기법</a>
       authors: 오태일, 최종현
       conference: KIMST (한국군사과학기술학회), 2020
-    - title: <a href="https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE10583063" target="parent">단일 영상 기반 텍스쳐 보존 잡음제거</a>
+    - title: <a href="https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE10583063">단일 영상 기반 텍스쳐 보존 잡음제거</a>
       authors: 조연식, 오태일, 최종현
       conference: KSC (한국정보과학회), 2021
 
@@ -202,5 +202,5 @@ publications:
 
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> <br>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com"target="_blank" rel="nofollow">Xiaoying Riley</a> <br>
     Template modified by <a href="https://github.com/skaws2003">skaws2003</a>
