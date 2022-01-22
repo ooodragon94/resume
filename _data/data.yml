@@ -77,25 +77,26 @@ projects:
       company: KETI (한국전자기술원)
       topic: Image Recognition
       details: |
-        딥러닝 모델을 경량화시켜서 반도체 칩에서 구동가능할 만큼 소형화를 시키는 프로젝트입니다.\
-        저는 경량화 기법에 contribution이 있으며, 그 중에서도 Knowledge Distillation 기법과 Pruning 기법으로 CNN 모델을 경량화하는 알고리즘을 구현하였습니다.\
-        또한 디바이스 특화 네트워크 구현에 있어서, tensorrt를 사용하여 네트워크의 inference speed를 최대한으로 optimize하여 jetson nano에서 돌려본 경험이 있습니다.
+        딥러닝 모델을 경량화시켜서 반도체 칩에서 구동가능할 만큼 소형화를 시키는 프로젝트입니다.
+        - 저는 경량화 기법에 contribution이 있으며, 그 중에서도 Knowledge Distillation 기법과 Pruning 기법으로 CNN 모델을 경량화하는 알고리즘을 구현하였습니다.
+        - 또한 디바이스 특화 네트워크 구현에 있어서, tensorrt를 사용하여 네트워크의 inference speed를 최대한으로 optimize하여 jetson nano에서 돌려본 경험이 있습니다.
 
     - title: Downstream task related image generation for privacy with information disentanglement
       time: 2020.07 - 2020.09
       company: GIST (광주과학기술)
       topic: Privacy
       details: |
-        딥러닝방식은 어떻게 해서든 학습할 데이터를 필요로 합니다.\
-        이는 privacy관점에서 굉장히 위험하고 언젠가는 필수적으로 해결되어야할 문제입니다.\
-        이를 위해, 주어진 dataset에서 targeting하는 downstream task에 대한 information만 남긴채로 새로운 image를 generation하는 방식에 대해 연구하였습니다.
+        Privacy 걱정이 없는 image generation 연구를 진행했습니다.
+        - 딥러닝방식은 어떻게 해서든 학습할 데이터를 필요로 합니다.
+        - 이는 privacy관점에서 굉장히 위험하고 언젠가는 필수적으로 해결되어야할 문제입니다.
+        - 이를 위해, 주어진 dataset에서 targeting하는 downstream task에 대한 information만 남긴채로 새로운 image를 generation하는 방식에 대해 연구하였습니다.
 
     - title: Zero shot face image generation
       time: 2020.10 - 2020.11
       company: GIST (광주과학기술)
       topic: Privacy
       details: |
-        Dream to Distill 이라는 방식을 사용하여, zero shot face image generation에 대해 연구했습니다. 
+        Dream to Distill 이라는 방식을 사용하여, zero shot face image generation에 대해 연구를 진행하였습니다. 
 
     - title: Noise removal with only noisy images
       time: 2020.10 - 2020.11
@@ -110,28 +111,28 @@ projects:
       company: GIST (광주과학기술)
       topic: Image Recognition
       details: |
-        Network pruning에서도 filter pruning에 연구를 진행하였습니다.
+        Network pruning 중 structured pruning의 일종인 filter pruning에 대해 연구를 진행하였습니다.
         - Data가 주어지지 않은 상태에서 학습된 network의 parameter들만 보고 importance score를 계산하여 pruning하는 zero shot pruning에 대한 연구를 진행하였습니다.
         - 또한 filter pruning index에 대해서 연구를 진행하였습니다. Filter pruning을 할 때, index를 맞추어주는 것은 매우 중요합니다. 
-        하지만 residual network들이 성능적 우위를 차지하며 우세 네트워크가 되어가는 동안, pruning index를 맞추어주는 연구는 진행이 되지 않아 연구를 진행했습니다.
+        - 하지만 residual network들이 성능적 우위를 차지하며 우세 네트워크가 되어가는 동안, pruning index를 맞추어주는 연구는 진행이 되지 않아 연구를 진행했습니다.
 
     - title: Knowledge Distillation
       time: 2021.03 - 2021.04
       company: GIST (광주과학기술)
       topic: Image Recognition
       details: |
-        흔히 dark knowledge distillation이라고 하는 logit distillation에 연구를 진행하였습니다.\
-        Distillation은 대부분 좋은 성능을 내는 큰 네트워크를 teacher network로 두고, student를 학습시키는 방식으로 진행합니다.\
-        하지만 큰 네트워크에 대한 inference는 주어진 resource가 적다면 쉽지 않습니다. 이를 우회하기 위해서, 대부분 teacher model의 inference 결과를 저장해둡니다.\
-        이렇게 되면 주어진 이미지에 어떠한 transformation이 가해져도 student가 학습할 teacher network의 logit은 deterministic합니다.\
-        이를 위해서 transformation이 주어지면 logit의 변화량을 mimic할 수 있는 네트워크를 학습하여 우회를 시도하는 연구를 진행했습니다.
+        흔히 dark knowledge distillation이라고 하는 logit distillation에 대해 연구를 진행하였습니다.
+        - Distillation은 대부분 좋은 성능을 내는 큰 네트워크를 teacher network로 두고, student를 학습시키는 방식으로 진행합니다.
+        - 하지만 큰 네트워크에 대한 inference는 주어진 resource가 적다면 쉽지 않습니다. 이를 우회하기 위해서, 대부분 teacher model의 inference 결과를 저장해둡니다.
+        - 이렇게 되면 주어진 이미지에 어떠한 transformation이 가해져도 student가 학습할 teacher network의 logit은 deterministic합니다.
+        - 이를 위해서 transformation이 주어지면 logit의 변화량을 mimic할 수 있는 네트워크를 학습하여 우회를 시도하는 연구를 진행했습니다.
 
     - title: Binary Network
       time: 2021.07 - current
       company: GIST (광주과학기술)
       topic: Image Recognition
       details: |
-        경량화 네트워크의 가장 extreme case는 모든 parameter를 binarize하는 것 입니다.
+        Quantization의 extreme case인 Binary Network에 대해 연구를 진행하였습니다.
         - Binary Network에서 성능을 올려주는 pruning 기법에 대해 연구를 하였습니다. Quantization error가 높은 filter를 제거함으로서 높은 성능을 내는 binary network를 만드는 연구를 진행했습니다.
         - Binary Network에서의 architecture search를 진행하였습니다. DARTS 기반의 NAS방식을 사용하여, 높은 성능을 내는 binary network를 찾는 연구를 진행했습니다.
         - Binary Network에 대한 application (현재 진행중, 상세정보 공개불가 ECCV2022 제출 예정)
@@ -152,7 +153,6 @@ skills:
           - Ray를 사용하여 extensive한 hyperparameter searching을 해본 경험이 있습니다.
           - 상속을 하여 custom class를 만드는데에 문제가 없습니다.
           - 석사기간동안 해당 라이블러리로 연구하였습니다.
-          - 대학원 시기 모든 연구에 PyTorch를 사용하였습니다.
       - name: C
         level: 30%
         details: |
