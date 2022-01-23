@@ -60,14 +60,14 @@ experiences:
   - title: Machine Learning Intern
     time: 2018.11 - 2019.02
     company: <a href="https://neweng.cau.ac.kr/index.do">ChungAng University, Seoul</a>
-    topic: Internship while winter break
+    topic: Internship during winter break
     details: |
       Learned basic ML knowledge.
 
   - title: <a href="https://github.com/ooodragon94/usurf">Machine Learning Intern</a>
     time: 2019.7 - 2019.8
     company: <a href="https://www.unist.ac.kr/">Ulsan National Institute of Science and Technology(UNIST)</a>
-    topic: Internship while summer break
+    topic: Internship during summer break
     details: |
       Learned and implemented following:
        - Histogram Equalization
