@@ -43,9 +43,9 @@ education:
       time: 2014.03 - 2020.02
       details: |
         Graduated from ChungAng University, Faculty of Electrical and Electronic Engineering
-        - Won 3rd prize in a on campus IOS class.
-        - Won participation award in a on campus contest called "Always On".
-        - Won Next leadership Awards from Xcorps by using bluetooth beacon and LSTM to estimate the user's position.
+        - Won a prize in a on campus <a href="https://codershigh.github.io/WebSite/#/">IOS class</a>.
+        - Won an award in a on campus contest called <a href="http://ict.cau.ac.kr/20150610/sub05/sub05_01_list.php?cmd=view&idx=211">"Always On"</a>.
+        - Got an award from <a href="https://xcorps.snu.ac.kr/about/xcorps">X-Corps</a> by using bluetooth beacon and LSTM to estimate the user's position.
 
     - degree: MS in Computer Science
       university: <a href="https://www.gist.ac.kr/en/main.html">Gwangju Institute of Science and Technology(GIST), Gwangju</a> (GPA 4.0/4.50)
@@ -84,7 +84,18 @@ projects:
       details: |
         Project on compression deep neural network to implement on a chip.
         - Contributed on Model compression algorithm; Knowledge Distillation, Pruning to compress Convolutional Neural Network(CNN).
-        - Used tensorrt to optimize network inference speed on Jetson Nano.
+        - Used TensorRT to optimize network inference speed on Jetson Nano.
+
+    - title: Knowledge Distillation
+      time: 2020.03 - 2020.04
+      company: GIST
+      topic: Image Recognition
+      details: |
+        Researched on logit distillation, also known as dark knowledge distillation.
+        - Distillation with large teacher on a restricted resource.\
+        Many try to overcome the large teacher memory for distillation by saving its inference results.\
+        However, this will give deterministic results even with different transformation.\
+        Researched on a learned network that will change the teacher logit regarding to the applied transformation.
 
     - title: Image generation for privacy with information disentanglement
       time: 2020.07 - 2020.09
@@ -103,10 +114,10 @@ projects:
       details: |
         Used <a href="https://arxiv.org/pdf/1912.08795.pdf">Dream to Distill</a> for zero shot face image generation.
 
-    - title: Noise removal with only noisy images
+    - title: Noise Removal with only noisy images
       time: 2020.12 - 2021.01
       company: GIST
-      topic: Noise removal
+      topic: Noise Removal
       details: |
         Given only training image, we can estimate real error with Stein's unbiased risk estimate(SURE).\
         Using SURE, we researched on denoising method only with noisy images.
@@ -120,17 +131,6 @@ projects:
         - Researched on zero shot pruning, a pruning technique which estimates importance score without any data given.
         - Researched on index matching while filter pruning. After the advent of residual network, this field has not progressed.\
         However, it is one of the most important problem to solve.
-
-    - title: Knowledge Distillation
-      time: 2021.03 - 2021.04
-      company: GIST
-      topic: Image Recognition
-      details: |
-        Researched on logit distillation, also known as dark knowledge distillation.
-        - Distillation with large teacher on a restricted resource.\
-        Many try to overcome the large teacher memory for distillation by saving its inference results.\
-        However, this will give deterministic results even with different transformation.\
-        Researched on a learned network that will change the teacher logit regarding to the applied transformation.
 
     - title: Binary Network
       time: 2021.07 - current
