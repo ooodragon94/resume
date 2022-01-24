@@ -36,13 +36,13 @@ education:
       university: <a href="https://www.graded.br/">Graded - The American School of São Paulo, Brasil</a>
       time: 2010.08 -2013.07
       details: |
-        Graduated from one of the best high school in South America, Graded.
+        Graduated from Graded.
 
     - degree: BS in Electric Electronics Engineering
-      university: <a href="https://neweng.cau.ac.kr/index.do">ChungAng University, Seoul</a> (GPA 3.94 / 4.50)
+      university: <a href="https://neweng.cau.ac.kr/index.do">Chung-Ang University, Seoul</a> (GPA 3.94 / 4.50)
       time: 2014.03 - 2020.02
       details: |
-        Graduated from ChungAng University, Faculty of Electrical and Electronic Engineering
+        Graduated from Chung-Ang University, Faculty of Electrical and Electronic Engineering
         - Won a prize in a on campus <a href="https://codershigh.github.io/WebSite/#/">IOS class</a>.
         - Won an award in a on campus contest called <a href="http://ict.cau.ac.kr/20150610/sub05/sub05_01_list.php?cmd=view&idx=211">"Always On"</a>.
         - Got an award from <a href="https://xcorps.snu.ac.kr/about/xcorps">X-Corps</a> by using bluetooth beacon and LSTM to estimate the user's position.
@@ -59,7 +59,7 @@ education:
 experiences:
   - title: Machine Learning Intern
     time: 2018.11 - 2019.02
-    company: <a href="https://neweng.cau.ac.kr/index.do">ChungAng University, Seoul</a>
+    company: <a href="https://neweng.cau.ac.kr/index.do">Chung-Ang University, Seoul</a>
     topic: Internship during winter break
     details: |
       Learned basic ML knowledge.
