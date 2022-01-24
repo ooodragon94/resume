@@ -122,7 +122,7 @@ projects:
         Given only training image, we can estimate real error with Stein's unbiased risk estimate(SURE).\
         Using SURE, we researched on denoising method only with noisy images.
 
-    - title: Network Pruning
+    - title: <a href="https://github.com/ooodragon94/prune">Network Pruning</a>
       time: 2021.02 - 2021.06
       company: GIST
       topic: Image Recognition
@@ -138,7 +138,7 @@ projects:
       topic: Image Recognition
       details: |
         Researched on Binary Network, an extreme case of quantization.
-        - Researched on better performing binary network with removing high quantization errror inducing filters.
+        - Researched on better performing binary network with removing high quantization error inducing filters.
         - Researched on Binary Network Architecture Search with pruning.
         - Binary Network application (currently working on this, no specification allowed. Planning to submit to ECCV2022)
 
