@@ -77,7 +77,7 @@ experiences:
        - Reflection Reduction
 
 projects:
-    - title: <a href="https://github.com/ooodragon94/network-compress/">Model Compression</a>
+    - title: <a href="https://github.com/ooodragon94/network-compress-pytorch">Model Compression</a>
       time: 2020.03 - 2022.02
       company: <a href="https://www.keti.re.kr/eng/main/main.php">Korea Electronics Technology Institute(KETI)</a>
       topic: Image Recognition
@@ -122,7 +122,7 @@ projects:
         Given only training image, we can estimate real error with Stein's unbiased risk estimate(SURE).\
         Using SURE, we researched on denoising method only with noisy images.
 
-    - title: <a href="https://github.com/ooodragon94/prune">Network Pruning</a>
+    - title: <a href="https://github.com/ooodragon94/prune-pytorch">Network Pruning</a>
       time: 2021.02 - 2021.06
       company: GIST
       topic: Image Recognition
