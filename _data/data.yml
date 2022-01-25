@@ -93,9 +93,9 @@ projects:
       details: |
         Researched on logit distillation, also known as dark knowledge distillation.
         - Distillation with large teacher on a restricted resource.\
-        Many try to overcome the large teacher memory for distillation by saving its inference results.\
-        However, this will give deterministic results even with different transformation.\
-        Researched on a learned network that will change the teacher logit regarding to the applied transformation.
+        - Many try to overcome the large teacher memory for distillation by saving its inference results.\
+        - However, this will give deterministic results even with different transformation.\
+        - Researched on a learned network that will change the teacher logit regarding to the applied transformation.
 
     - title: Image generation for privacy with information disentanglement
       time: 2020.07 - 2020.09
