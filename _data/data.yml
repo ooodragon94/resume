@@ -86,7 +86,7 @@ projects:
         - Contributed on Model compression algorithm; Knowledge Distillation, Pruning to compress Convolutional Neural Network(CNN).
         - Used TensorRT to optimize network inference speed on Jetson Nano.
 
-    - title: Knowledge Distillation
+    - title: <a href="https://github.com/ooodragon94/KD-Augmentation-with-supervision-pytorch">Knowledge Distillation</a>
       time: 2020.03 - 2020.04
       company: GIST
       topic: Image Recognition
@@ -97,7 +97,7 @@ projects:
         - However, this will give deterministic results even with different transformation.
         - Researched on a learned network that will change the teacher logit regarding to the applied transformation.
 
-    - title: Image generation for privacy with information disentanglement
+    - title: <a href="https://github.com/ooodragon94/image-generation-privacy-pytorch">Image generation for privacy with information disentanglement</a>
       time: 2020.07 - 2020.09
       company: GIST
       topic: Privacy
@@ -107,7 +107,7 @@ projects:
         - This has critial privacy concern and must be solved.
         - For this, we researched on generating images only with downstream task related information.
 
-    - title: Zero shot face image generation
+    - title: <a href="https://github.com/ooodragon94/zero-shot-face-image-generation-pytorch">Zero shot face image generation</a>
       time: 2020.10 - 2020.11
       company: GIST
       topic: Privacy
@@ -131,7 +131,7 @@ projects:
         - Researched on zero shot pruning, a pruning technique which estimates importance score without any data given.
         - Researched on index matching while filter pruning. After the advent of residual network, this field has not progressed. However, it is one of the most important problem to solve.
 
-    - title: Binary Network
+    - title: <a href="https://github.com/ooodragon94/binary-pytorch">Binary Network</a>
       time: 2021.07 - current
       company: GIST
       topic: Image Recognition
