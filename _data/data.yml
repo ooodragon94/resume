@@ -51,7 +51,7 @@ education:
       university: <a href="https://www.gist.ac.kr/en/main.html">Gwangju Institute of Science and Technology(GIST), Gwangju</a> (GPA 4.0/4.50)
       time: 2020.03 - 2022.02
       details: |
-        Received master's degree from the Computer Vision Lab (prof. Jonghyun Choi), Gwangju Institute of Science and Technology.
+        Received master's degree from the Computer Vision Lab (prof. Jonghyun Choi), Gwangju Institute of Science and Technology.\
         Experienced following research fields in lab:
           - Model Compression: Knowledge Distillation, Network Pruning, Binary Network, Network Architecture Search
           - Image Generation: Downstream task information disentanglement for privacy, Zero shot Image Generation for privacy.
