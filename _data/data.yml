@@ -32,21 +32,6 @@ career-profile:
       <a href="http://ppolon.github.io/">Jonghyun Choi</a> is my advisor.
 
 education:
-    - degree: High School Diploma
-      university: <a href="https://www.graded.br/">Graded - The American School of São Paulo, Brasil</a>
-      time: 2010.08 - 2013.07
-      details: |
-        Graduated from Graded.
-
-    - degree: BS in Electric Electronics Engineering
-      university: <a href="https://neweng.cau.ac.kr/index.do">Chung-Ang University, Seoul</a> (GPA 3.94 / 4.50)
-      time: 2014.03 - 2020.02
-      details: |
-        Graduated from Chung-Ang University, Faculty of Electrical and Electronic Engineering
-        - Won a prize in a on campus <a href="https://codershigh.github.io/WebSite/#/">IOS class</a>.
-        - Won an award in a on campus contest called <a href="http://ict.cau.ac.kr/20150610/sub05/sub05_01_list.php?cmd=view&idx=211">"Always On"</a>.
-        - Got an award from <a href="https://xcorps.snu.ac.kr/about/xcorps">X-Corps</a> by using bluetooth beacon and LSTM to estimate the user's position.
-
     - degree: MS in Computer Science
       university: <a href="https://www.gist.ac.kr/en/main.html">Gwangju Institute of Science and Technology(GIST), Gwangju</a> (GPA 4.0/4.50)
       time: 2020.03 - 2022.02
@@ -57,6 +42,24 @@ education:
           - Image Generation: Downstream task information disentanglement for privacy, Zero shot Image Generation for privacy.
           - Binary Network Applications
 
+    - degree: BS in Electric Electronics Engineering
+      university: <a href="https://neweng.cau.ac.kr/index.do">Chung-Ang University, Seoul</a> (GPA 3.94 / 4.50)
+      time: 2014.03 - 2020.02
+      details: |
+        Graduated from Chung-Ang University, Faculty of Electrical and Electronic Engineering
+        - Won a prize in a on campus <a href="https://codershigh.github.io/WebSite/#/">IOS class</a>.
+        - Won an award in a on campus contest called <a href="http://ict.cau.ac.kr/20150610/sub05/sub05_01_list.php?cmd=view&idx=211">"Always On"</a>.
+        - Got an award from <a href="https://xcorps.snu.ac.kr/about/xcorps">X-Corps</a> by using bluetooth beacon and LSTM to estimate the user's position.
+
+    - degree: High School Diploma
+      university: <a href="https://www.graded.br/">Graded - The American School of São Paulo, Brasil</a>
+      time: 2010.08 - 2013.07
+      details: |
+        Graduated from Graded.
+
+
+
+
 experiences:
   - title: Vision Intelligence Intern
     time: 2022.03 - Current
@@ -64,13 +67,6 @@ experiences:
     topic: Internship
     details: |
       N/A
-
-  - title: Machine Learning Intern
-    time: 2018.11 - 2019.02
-    company: <a href="https://neweng.cau.ac.kr/index.do">Chung-Ang University, Seoul</a>
-    topic: Internship during winter break
-    details: |
-      Learned basic ML knowledge.
 
   - title: <a href="https://github.com/ooodragon94/usurf">Machine Learning Intern</a>
     time: 2019.7 - 2019.8
@@ -84,7 +80,16 @@ experiences:
        - DCGAN
        - Reflection Reduction
 
+  - title: Machine Learning Intern
+    time: 2018.11 - 2019.02
+    company: <a href="https://neweng.cau.ac.kr/index.do">Chung-Ang University, Seoul</a>
+    topic: Internship during winter break
+    details: |
+      Learned basic ML knowledge.
+
+
 projects:
+
     - title: <a href="https://github.com/ooodragon94/network-compress-pytorch">Model Compression</a>
       time: 2020.03 - 2022.02
       company: <a href="https://www.keti.re.kr/eng/main/main.php">Korea Electronics Technology Institute(KETI)</a>
@@ -94,6 +99,52 @@ projects:
         - Contributed on Model compression algorithm; Knowledge Distillation, Pruning to compress Convolutional Neural Network(CNN).
         - Used TensorRT to optimize network inference speed on Jetson Nano.
 
+    - title: <a href="https://github.com/ooodragon94/binary-pytorch">Binary Network</a>
+      time: 2021.07 - current
+      company: GIST
+      topic: Image Recognition
+      details: |
+        Researched on Binary Network, an extreme case of quantization.
+        - Researched on better performing binary network with removing high quantization error inducing filters.
+        - Researched on Binary Network Architecture Search with pruning.
+        - Binary Network application (currently working on this, no specification allowed. Planning to submit to ECCV2022)
+
+    - title: <a href="https://github.com/ooodragon94/prune-pytorch">Network Pruning</a>
+      time: 2021.02 - 2021.06
+      company: GIST
+      topic: Image Recognition
+      details: |
+        Researched on filter pruning which is a subfield of network pruning.
+        - Researched on zero shot pruning, a pruning technique which estimates importance score without any data given.
+        - Researched on index matching while filter pruning. After the advent of residual network, this field has not progressed. However, it is one of the most important problem to solve.
+
+
+    - title: Noise Removal with only noisy images
+      time: 2020.12 - 2021.01
+      company: GIST
+      topic: Noise Removal
+      details: |
+        Given only training image, we can estimate real error with Stein's unbiased risk estimate(SURE).\
+        Using SURE, we researched on denoising method only with noisy images.
+
+
+    - title: <a href="https://github.com/ooodragon94/zero-shot-face-image-generation-pytorch">Zero shot face image generation</a>
+      time: 2020.10 - 2020.11
+      company: GIST
+      topic: Privacy
+      details: |
+        Used <a href="https://arxiv.org/pdf/1912.08795.pdf">Dream to Distill</a> for zero shot face image generation.
+
+    - title: <a href="https://github.com/ooodragon94/image-generation-privacy-pytorch">Image generation for privacy with information disentanglement</a>
+      time: 2020.07 - 2020.09
+      company: GIST
+      topic: Privacy
+      details: |
+        Research on generating images with no privacy concern.
+        - Deep learning needs data to learn.
+        - This has critial privacy concern and must be solved.
+        - For this, we researched on generating images only with downstream task related information.
+        
     - title: <a href="https://github.com/ooodragon94/KD-Augmentation-with-supervision-pytorch">Knowledge Distillation</a>
       time: 2020.03 - 2020.04
       company: GIST
@@ -105,49 +156,10 @@ projects:
         - However, this will give deterministic results even with different transformation.
         - Researched on a learned network that will change the teacher logit regarding to the applied transformation.
 
-    - title: <a href="https://github.com/ooodragon94/image-generation-privacy-pytorch">Image generation for privacy with information disentanglement</a>
-      time: 2020.07 - 2020.09
-      company: GIST
-      topic: Privacy
-      details: |
-        Research on generating images with no privacy concern.
-        - Deep learning needs data to learn.
-        - This has critial privacy concern and must be solved.
-        - For this, we researched on generating images only with downstream task related information.
 
-    - title: <a href="https://github.com/ooodragon94/zero-shot-face-image-generation-pytorch">Zero shot face image generation</a>
-      time: 2020.10 - 2020.11
-      company: GIST
-      topic: Privacy
-      details: |
-        Used <a href="https://arxiv.org/pdf/1912.08795.pdf">Dream to Distill</a> for zero shot face image generation.
 
-    - title: Noise Removal with only noisy images
-      time: 2020.12 - 2021.01
-      company: GIST
-      topic: Noise Removal
-      details: |
-        Given only training image, we can estimate real error with Stein's unbiased risk estimate(SURE).\
-        Using SURE, we researched on denoising method only with noisy images.
 
-    - title: <a href="https://github.com/ooodragon94/prune-pytorch">Network Pruning</a>
-      time: 2021.02 - 2021.06
-      company: GIST
-      topic: Image Recognition
-      details: |
-        Researched on filter pruning which is a subfield of network pruning.
-        - Researched on zero shot pruning, a pruning technique which estimates importance score without any data given.
-        - Researched on index matching while filter pruning. After the advent of residual network, this field has not progressed. However, it is one of the most important problem to solve.
-
-    - title: <a href="https://github.com/ooodragon94/binary-pytorch">Binary Network</a>
-      time: 2021.07 - current
-      company: GIST
-      topic: Image Recognition
-      details: |
-        Researched on Binary Network, an extreme case of quantization.
-        - Researched on better performing binary network with removing high quantization error inducing filters.
-        - Researched on Binary Network Architecture Search with pruning.
-        - Binary Network application (currently working on this, no specification allowed. Planning to submit to ECCV2022)
+    
 
 skills:
     title: Skills &amp; Proficiency
@@ -184,9 +196,9 @@ publications:
   title: Publications
   intro: Published papers regarding to done projects.
   papers:
-    - title: <a href="http://conference.kimst.or.kr/data/programbook-1111-1.pdf">시각 인식을 위한 네트워크 경량화 기법</a>
-      authors: 오태일, 최종현
-      conference: KIMST (한국군사과학기술학회), 2020
     - title: <a href="https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE10583063">단일 영상 기반 텍스쳐 보존 잡음제거</a>
       authors: 조연식, 오태일, 최종현
       conference: KSC (한국정보과학회), 2021
+    - title: <a href="http://conference.kimst.or.kr/data/programbook-1111-1.pdf">시각 인식을 위한 네트워크 경량화 기법</a>
+      authors: 오태일, 최종현
+      conference: KIMST (한국군사과학기술학회), 2020
