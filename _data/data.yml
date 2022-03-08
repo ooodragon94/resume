@@ -107,7 +107,7 @@ projects:
         Researched on Binary Network, an extreme case of quantization.
         - Researched on better performing binary network with removing high quantization error inducing filters.
         - Researched on Binary Network Architecture Search with pruning.
-        - Binary Network application (currently working on this, no specification allowed. Planning to submit to ECCV2022)
+        - Binary Network application (currently working on this, no specification allowed. Planning to submit to NeurIPS2023)
 
     - title: <a href="https://github.com/ooodragon94/prune-pytorch">Network Pruning</a>
       time: 2021.02 - 2021.06
