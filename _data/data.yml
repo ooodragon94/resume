@@ -103,7 +103,22 @@ experiences:
 
 
 projects:
+    - title: Compact Model Retargeting
+      time: 2024.04 - Current
+      company: <a href="https://www.alsemy.com/">Alsemy Inc.</a>
+      topic: Neural Operator, Data Augmentation, Domain Adaptation
+      details: |
+        Project on modifying compact model with given specifics
+        - Based on given semiconductor device, modify the curve with given information for future device's simulation.
+        
 
+    - title: Anomaly Detection
+      time: 2023.09 - Current
+      company: <a href="https://www.alsemy.com/">Alsemy Inc.</a>
+      topic: Neural Operator, Anomaly Detection
+      details: |
+        Project on sorting false dataset for huge data collection
+        
     - title: <a href="https://github.com/ooodragon94/network-compress-pytorch">Model Compression</a>
       time: 2020.03 - 2022.02
       company: <a href="https://www.keti.re.kr/eng/main/main.php">Korea Electronics Technology Institute(KETI)</a>
