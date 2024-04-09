@@ -61,8 +61,20 @@ education:
 
 
 experiences:
+  - title: Alsemy Inc AI Researcher
+    time: 2022.07 - Current
+    company: <a href="https://www.alsemy.com/">Alsemy Inc., Seoul</a>
+    topic: 
+    details: |
+        Neural Compact Modeling using semiconductor dataset
+          - Neural Operators for training function data
+          - Light weight AutoML for non-AI experts
+          - Anomaly detection on function data
+          - Flask API to coworker with product engineers
+      
+      
   - title: Vision Intelligence Intern
-    time: 2022.03 - Current
+    time: 2022.03 - 2022.07
     company: <a href="https://https://www.kakaoenterprise.com/">Kakao Enterprise, Pangyo</a>
     topic: Internship
     details: |
@@ -177,6 +189,11 @@ skills:
           - Experienced extensive hyperparameter searching with <a href="https://docs.ray.io/en/latest/using-ray-with-pytorch.html">Ray</a>
           - No problem on making custom class while inheriting its class.
           - Used this library while studying for master's degree.
+      - name: Docker
+        level: 30%
+        details: |
+          - Mainly using for resource & environment separation
+          - Capable of making a new environment
       - name: C
         level: 30%
         details: |
@@ -196,6 +213,9 @@ publications:
   title: Publications
   intro: Published papers regarding to done projects.
   papers:
+    - title: <a href="https://arxiv.org/abs/2312.10975">A Flexible and Scalable Architecture for Solving PDEs</a>
+      authors: Seungjun Lee, Taeil Oh
+      conference: AAAI, 2024
     - title: <a href="https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE10583063">단일 영상 기반 텍스쳐 보존 잡음제거</a>
       authors: 조연식, 오태일, 최종현
       conference: KSC (한국정보과학회), 2021
