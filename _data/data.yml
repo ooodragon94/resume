@@ -28,8 +28,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I studied master's program at <a href="https://https://gistvision.github.io//">GIST Computer Vision Lab</a>.\
-      <a href="http://ppolon.github.io/">Jonghyun Choi</a> is my advisor.
+        I am an AI Researcher at <a href="https://www.alsemy.com/">Alsemy</a>.
+        Alsemy focuses on AI aided EDA tools and Neural Compact Modeling.
+        My research is mainly on manipulating semiconductor dataset which is infinite dimensional function data.
+        
 
 education:
     - degree: MS in Computer Science
