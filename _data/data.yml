@@ -69,10 +69,10 @@ experiences:
     topic: 
     details: |
         Neural Compact Modeling using semiconductor dataset
-          - Neural Operators for training function data
-          - Light weight AutoML for non-AI experts
+          - Neural operators for training function data
+          - Light AutoML for non-AI experts
           - Anomaly detection on function data
-          - Flask API to coworker with product engineers
+          - Flask API to cowork with product engineers
       
       
   - title: Vision Intelligence Intern
@@ -117,7 +117,7 @@ projects:
       company: <a href="https://www.alsemy.com/">Alsemy Inc.</a>
       topic: Neural Operator, Anomaly Detection
       details: |
-        Project on sorting false dataset for huge data collection
+        Project on sorting invalid dataset for huge data collection
         
     - title: <a href="https://github.com/ooodragon94/network-compress-pytorch">Model Compression</a>
       time: 2020.03 - 2022.02
